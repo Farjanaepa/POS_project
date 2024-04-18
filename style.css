@@ -26,10 +26,10 @@ body{
     overflow: hidden;
     
     transition: all 0.5s linear;
-    background: rgba(113, 99, 186, 255);
+    background:  #596f7b;
 }
 .sidebar:hover{
-    width: 240px;
+    width: 260px;
     transition: 0.5s;
 }
 .logo{
@@ -54,7 +54,7 @@ body{
 }
 .menu a{
     color: #e8e8e8;
-    font-size: 14px;
+    font-size: 16px;
     text-decoration: none;
     display: flex;
     align-items: center;
@@ -99,27 +99,44 @@ body{
     align-items: center;  
     border: none;
     outline: none;
-    color: rgb(73, 71, 71);
+    color: rgb(104, 109, 105);
     padding: 14px 5px;
     background-color: inherit;
     font-family: inherit;
     margin: 0;
-   
+    float: right;
+    overflow: hidden;
     
 }
+.dropdown-container:hover .dropdown{
+  display: block;
+
+}
+.dropdown{
+  position: absolute;
+  background-color: #75abc8;
+  display: none;
+  list-style-type: none;
+  z-index: 1;
+  border-radius: 10px;
+  height: 170px;
+  
+}
+
 .user--info i{
     height: 40px;
     width: 30px;
     font-size: 40px;
-
+    
 }
 
 
+/* 
 .user--info {
     float: right;
     overflow: hidden;
    
-  }
+  } */
   
   .dropdown-content {
     display: none;
@@ -131,6 +148,8 @@ body{
     border-radius: 10px 10px 10px 10px;
     flex-wrap: nowrap;
   }
+
+ 
   
   .dropdown-content a {
     float: none;
@@ -141,17 +160,23 @@ body{
     text-align: left;
   }
 
-  .dropdown-content i{
+  
+
+  /* .dropdown-content i{
     font-size: 15px;
-  }
+  } */
   
   .dropdown-content a:hover {
-    background-color: #cebbf8;
+    background-color: #ac8cf1;
   }
+
+ 
   
   .user--info:hover .dropdown-content {
     display: block;
   }
+
+ 
   .dropbtn h3{
     background-color: rgb(251, 255, 255);
     padding: 1rem;
@@ -222,3 +247,50 @@ body{
     align-items: center;
     justify-content: center;
   }
+/*------- mediaquerries------- */
+    /* 
+    medium <= 992px */
+
+    @media screen and (max-width: 992px) {
+      .main-container{
+        grid-template-columns: 1fr;
+        grid-template-rows: 0.2fr 3fr;
+        grid-template-areas: 
+        "header"
+        "main";
+      }
+
+      #sidebar{
+        display: none;
+      }
+      .menu-icon{
+        display: inline;
+      }
+
+      .sidebar-title > span{
+            display: inline;
+      }
+    }
+
+    @media screen and (max-width: 768px){
+      .main-cards{
+        grid-template-columns: 1fr;
+        gap: 10px;
+        margin-bottom: 0;
+
+      }
+
+      .charts{
+        grid-template-columns: 1fr;
+        margin-top: 30px;
+
+      }
+     
+    }
+
+    @media screen and (max-width: 576px){
+      .header-left{
+        display: none;
+      }
+      
+    }
