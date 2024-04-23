@@ -30,11 +30,19 @@
             </li>
             <li>
                 <a href="#">
-                    <i class="fa fa-cart-plus"></i>
+                    <i class="fa fa-windows"></i>
                     <span>Product</span>
 
                 </a>
             </li>
+            <li>
+                <a href="#">
+                    <i class="fa fa-cart-plus"></i>
+                    <span>Supplier</span>
+
+                </a>
+            </li>
+
             <li>
                 <a href="#">
                     <i class="fa fa-file-text"></i>
@@ -50,12 +58,12 @@
                 </a>
             </li>
             <li class="dropdown-container"><a href="#">
-                <i class="fa fa-cart-plus"></i>
-               <span> Product</span>
+                <i class="fa fa-user"></i>
+               <span> User Management</span>
             </a>
                 <ul class="dropdown">
-                    <li><a href="#">Product-search</a></li>
-                    <li><a href="#">Product-transfer</a></li>
+                    <li><a href="#">Manage-group</a></li>
+                    <li><a href="#">Manage-users</a></li>
                     
                 </ul>
             </li>

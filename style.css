@@ -19,19 +19,14 @@ body{
     top: 0;
     left: 0;
     bottom: 0;
-    width: 110px;
+    width: 260px;
     height: 100vh;
-    padding: 0 1.7rem;
+   
     color: #fff;
-    overflow: hidden;
-    
-    transition: all 0.5s linear;
+   
     background:  #596f7b;
 }
-.sidebar:hover{
-    width: 260px;
-    transition: 0.5s;
-}
+
 .logo{
     height: 80px;
     padding: 16px;
@@ -47,7 +42,7 @@ body{
     padding: 1rem;
     margin: 8px 0;
     border-radius: 8px;
-    transition: all 0.5s ease-in-out;
+   
 }
 .menu li:hover,.active{
     background: #e0e0e058;
@@ -131,12 +126,7 @@ body{
 }
 
 
-/* 
-.user--info {
-    float: right;
-    overflow: hidden;
-   
-  } */
+
   
   .dropdown-content {
     display: none;
@@ -162,9 +152,6 @@ body{
 
   
 
-  /* .dropdown-content i{
-    font-size: 15px;
-  } */
   
   .dropdown-content a:hover {
     background-color: #ac8cf1;
@@ -260,14 +247,14 @@ body{
         "main";
       }
 
-      #sidebar{
-        display: none;
+      .sidebar{
+        display: inline;
       }
       .menu-icon{
         display: inline;
       }
 
-      .sidebar-title > span{
+      .sidebar > span{
             display: inline;
       }
     }
@@ -282,7 +269,7 @@ body{
 
       .charts{
         grid-template-columns: 1fr;
-        margin-top: 30px;
+        margin-top:30px;
 
       }
      
