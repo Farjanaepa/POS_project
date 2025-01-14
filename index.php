@@ -91,7 +91,7 @@
                   </button>
                   <div class="dropdown-content">
                     <a href="#"> <span>Profile</span>  </a>
-                    <a href="#"><span>Settings</span>  </a>
+                    <a href="#"> <span>Settings</span>  </a>
                       <a href="#">  <span>Logout</span>  </a>
                     
                 </div>
@@ -116,7 +116,7 @@
                         <h3>CATEGORIES</h3>
                         <span class="material-icons-outlined">category</span>
                     </div>
-                    <h1>249</h1>
+                    <h1>250</h1>
                 </div>
     
                 
