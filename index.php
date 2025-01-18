@@ -62,8 +62,8 @@
                <span> User Management</span>
             </a>
                 <ul class="dropdown">
-                    <li><a href="#">Manage-group</a></li>
-                    <li><a href="#">Manage-users</a></li>
+                    <li><a href="#">Manage-group</a> </li>
+                    <li><a href="#">Manage-users</a> </li>
                     
                 </ul>
             </li>
